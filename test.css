@@ -1,0 +1,61 @@
+*{
+    color: white;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    
+    .navb{
+    display: block;
+    position: absolute;
+    margin-top: 0%;
+    background: #4286F5;
+    
+        width: 66vw;
+    }
+    ul ,a{
+      color: #fff;
+     display: flex;
+      list-style-type: none;
+      text-decoration: none;
+      
+    }
+    .nav{
+        display: flex;
+    position: absolute;
+    right: 34%;
+    font-size: .8em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .nav a{
+    
+    
+        padding-top: 2.55em;
+    }
+    a{
+        padding: 2em;
+    }
+    #logo{ padding-left: 18.75em;
+    display: block;
+        margin-right :20em; 
+    font-weight: bold;
+    
+      
+    }
+    hr{
+    background: white;
+    
+        position: relative;
+        top:-1.89em;
+        left: 18.7em;
+        width: 5vw;
+        height: .7vh;
+    }
+    .hero{
+     height: 70vh;
+    width: 66%;
+    background: #2A76E7;
+    }

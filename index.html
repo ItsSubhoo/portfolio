@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhajit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="blob"></div>
+    <div id="top"></div>
+    <div class="navb">
+        <ul>
+            <li>
+                <a href="index.html" id="logo">SUBHA JIT</a>
+                <hr>
+
+            </li>
+            <div class="nav">
+
+                <li><a href="https://www.Subhajitlai.com/work">my work</a></li>
+                <li><a href="https://www.Subhajitlai.com/about">about</a></li>
+                <li><a href="https://www.Subhajitlai.com/contuct">contact me</a></li>
+
+
+                <img class="logocon" src="github.png" alt="">
+                <img class="logocon" src="linkdin.png" alt="">
+                <img class="logocon" src="fgb.png" alt="">
+
+        </ul>
+    </div>
+
+    </div>
+
+    <div class="hero">
+
+
+        <div class="tag">
+            <h1 class="texa">
+
+                Fast,
+                beautiful,
+                responsive.
+            </h1>
+            <p class="texa">
+                think u need all of that ?
+            </p>
+            <div class="btn">
+                <button>
+                    <a href="#" class="con">contact me.</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="img">
+
+
+            <img id="art"
+                src="imgbin-youtube-notebook-digital-art-object-good-evening-RWqg3gEP4nN4SM2rFvUKXSKEe-removebg-preview.png"
+                alt="">
+        </div>
+    </div>
+    <script>
+        const blob = document.getElementById("blob");
+     
+     window.onpointermove = event => { 
+       const { clientX, clientY } = event;
+       
+       blob.animate({
+         left: `${clientX}px`,
+         top: `${clientY}px`
+       }, { duration: 3000, fill: "forwards" });
+     }
+     </script>
+
+
+</body>
+
+</html>
